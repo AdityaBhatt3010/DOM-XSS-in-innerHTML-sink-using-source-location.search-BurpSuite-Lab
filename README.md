@@ -7,6 +7,8 @@ Lab Link: [https://portswigger.net/web-security/cross-site-scripting/dom-based/l
 This PortSwigger lab contains a **DOM-based XSS vulnerability** inside the blog’s search feature.
 The JavaScript takes user input from **location.search** and injects it directly into the page using **innerHTML**, making it instantly exploitable.
 
+![Cover](XSS4/Cover.jpeg)
+
 ---
 
 # 🧪 PoC (Step-by-Step with Screenshots)
