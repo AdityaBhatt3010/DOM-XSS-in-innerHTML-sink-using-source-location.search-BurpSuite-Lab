@@ -95,12 +95,10 @@ This also works.
 
 This payload relies on the fact that SVG elements fire `onload` as soon as the browser parses them.
 Perfect for **innerHTML-based DOM XSS**, because the browser immediately executes the event.
-
-✓ No need for external resources
-✓ Executes instantly
-✓ Works even in strict CSP in many cases
-
----
+ 
+✓ No need for external resources<br/>
+✓ Executes instantly<br/>
+✓ Works even in strict CSP in many cases<br/>
 
 ### ✔ **Payload 2: `<img src=1 onerror=alert(1)>`**
 
